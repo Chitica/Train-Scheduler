@@ -6,12 +6,63 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="assets/css/style.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <title>Document</title>
 </head>
 <body>
-    
+    <section id="one" class="container-fluid">
+		<div class="jumbotron">
+			<h1 class="text-center">Train Tracker</h1>
+			<h3 class="text-center">By Liseth Chitica</h3>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title"><strong>Current Train</strong></h3>
+					</div>
+					<div class="panel-body">
+						<table class="table table-hover" id="train-log">
+							<thead>
+								<tr>
+									<th>Train Name</th>
+									<th>Line</th>
+									<th>Destination</th>
+									<th>Frequency</th>
+									<th>Next Arrival</th>
+									<th>Minutes Away</th>
+								</tr>
+							</thead>
+							<tbody>
+								
+							</tbody>
+						</table>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="two" class="container-fluid">
+            <h1 class="title row justify-content-center">ADD TRAIN</h1>
+            <form class="contact col-lg-8" id="contact" action="">
+                <label for="name">Train Name</label>
+                <input type="text" name="name" id="train-input" placeholder="">
+                <label for="name">Destination</label>
+                <input type="text" name="name" id="destination-input" placeholder="">
+                <label for="name">First Train Time (HH:hh-military time)</label>
+                <input type="time" name="name" id="first-train-time-input" placeholder="">
+                <label for="name">Frequency</label>
+                <input type="time" name="name" id="frequency-input" placeholder="">
+                
+                <input type="submit" value="Send" id="button-submit">
+            </form>
+        </section>
+            
 			
-	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
-    <script type="text.javascript" src="assets/js/train.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+    <script type="text/javascript" src="assets/js/train.js"></script>
+
 </body>
 </html>

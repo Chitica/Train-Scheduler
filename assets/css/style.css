@@ -1,0 +1,76 @@
+
+/*//////////////SECTION ONE///////////////////*/
+
+#one{
+    background:#FFFFFF;
+    padding-top:30px;
+    position: relative;
+    height: 900px;
+}
+
+.panel-heading{
+    text-align: center;
+    margin: 40px auto;
+}
+
+/*//////////////SECTION TWO///////////////////*/
+
+#two{
+    background:#FFFFFF;
+    padding-top:30px;
+    position: relative;
+    height: 900px;
+}
+
+.contact{
+margin: 0 auto;
+background: rgba (0, 0, 0, 0.8);
+padding: 10px 20px;
+margin-top: 20px;
+border-radius: 7px;
+
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea{
+width: 100%;
+height: 50px;
+border-radius: 3px;
+margin-top: 10px;
+margin-bottom: 20px;
+padding: 7px;
+box-sizing: border-box;
+font-size: 17px;
+border: none;
+resize: vertical;
+background: #F5F5F5; 
+}
+
+#contact input[type="text"]:focus, #contact input[type="tel"]:focus, #contact input[type="email"]:focus, #contact textarea:focus  {
+border: 3px solid rgb(199, 194, 194);
+}
+
+textarea{
+min-height: 100px;
+max-height: 200px;
+max-width: 100%;
+
+}
+
+#contact input[type="submit"]{
+text-transform: uppercase;
+font-size: 15px;
+width: 30%;
+background: #207FDD;
+color: #fff;
+padding: 20px;
+border: none;
+
+
+}
+
+#contact input[type="submit"]:hover{
+cursor: pointer;
+background: rgb(242, 249, 255);
+border: #207FDD solid;
+color: #207FDD;
+}
